@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_50">50sp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+    <dimen name="item_h">60dp</dimen>
+    <dimen name="text_30">30sp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="remove_btn_size">30dp</dimen>
+    <dimen name="text_45">45sp</dimen>
+    <dimen name="add_btn_size">30dp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="back_btn_size">30dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="text_35">35sp</dimen>
+    <dimen name="text_25">25sp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="radius_25">25dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+</resources>

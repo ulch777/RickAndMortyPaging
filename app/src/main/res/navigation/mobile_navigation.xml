@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/main_menu_Fragment">
+
+    <fragment
+        android:id="@+id/main_menu_Fragment"
+        android:name="com.ulch.rickandmortypaging.ui.main_menu.MainMenuFragment"
+        android:label="MainMenuFragment">
+        <action
+            android:id="@+id/to_data_list_fragment"
+            app:destination="@id/dataListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataListFragment"
+        android:name="com.ulch.rickandmortypaging.ui.character.DataListFragment"
+        android:label="DataListFragment">
+        <argument
+            android:name="type"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+</navigation>
